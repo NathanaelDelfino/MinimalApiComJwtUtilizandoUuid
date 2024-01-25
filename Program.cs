@@ -25,6 +25,15 @@ builder.Services.AddAuthentication(x =>
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app
+    .UseAuthentication()
+    .UseAuthorization()
+    .UseHttpsRedirection()
+    .UseRouting()
+    .UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllers();
+    });
 
+app.MapGet("/", () => "Hello World!");
 app.Run();

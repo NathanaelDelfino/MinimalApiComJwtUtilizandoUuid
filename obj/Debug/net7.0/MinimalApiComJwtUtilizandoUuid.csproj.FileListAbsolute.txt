@@ -23,3 +23,13 @@
 /Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/obj/Debug/net7.0/MinimalApiComJwtUtilizandoUuid.pdb
 /Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/obj/Debug/net7.0/MinimalApiComJwtUtilizandoUuid.genruntimeconfig.cache
 /Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/obj/Debug/net7.0/ref/MinimalApiComJwtUtilizandoUuid.dll
+/Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/obj/Debug/net7.0/MinimalApiComJwtUtilizandoUuid.csproj.AssemblyReference.cache
+/Users/nathanaeldelfino/_dev/CSharp/MinimalApiComJwtUtilizandoUuid/obj/Debug/net7.0/MinimalApiComJwtUtilizandoUuid.csproj.CopyComplete
