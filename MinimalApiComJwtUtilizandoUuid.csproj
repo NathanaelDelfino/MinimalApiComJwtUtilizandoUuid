@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspnetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspnetCore.Authentication.JwtBearer" Version="6.0.8" />
+  </ItemGroup>
+
 </Project>
