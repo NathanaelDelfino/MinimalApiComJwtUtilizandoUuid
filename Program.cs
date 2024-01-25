@@ -2,7 +2,14 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using MinimalApiComJwtUtilizandoUuid.Shared;
 
+var config = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+    .AddEnvironmentVariables();
+var configuration = config.Build();
+
 var builder = WebApplication.CreateBuilder(args);
+
 
 
 builder.Services.AddControllers();
@@ -23,17 +30,18 @@ builder.Services.AddAuthentication(x =>
     };
 });
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new() { Title = "MinimalApiComJwtUtilizandoUuid", Version = "v1" });
+});
+
 var app = builder.Build();
 
-app
-    .UseAuthentication()
-    .UseAuthorization()
-    .UseHttpsRedirection()
-    .UseRouting()
-    .UseEndpoints(endpoints =>
-    {
-        endpoints.MapControllers();
-    });
+app.UseAuthentication();
+app.UseAuthorization();
+app.UseHttpsRedirection();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", context => Task.Run(() => context.Response.Redirect("/swagger/index.html")));
+
 app.Run();
